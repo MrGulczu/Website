@@ -1,0 +1,20 @@
+$Color_Background2:#151515;
+$Color_Background1:#252525;
+$Color_Text:#ffffff;
+$Color_Accent:#9B00C2;
+
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: $Color_Background1;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: $Color_Text;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 10vh;
+    height: 100vh;
+}
