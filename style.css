@@ -1,0 +1,39 @@
+body
+{
+    font-family: 'Source Code Pro', monospace;
+    padding: 0;
+    background-color: #1F1F1F;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#gulcz
+{
+    color: #64FFDA;
+}
+.typewriter h1 {
+    overflow: hidden; 
+    border-right: .15em solid #64FFDA;
+    white-space: nowrap;
+    font-size: 900%;
+    animation: 
+      typing 3.5s steps(20, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #64FFDA; }
+  }
