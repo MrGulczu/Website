@@ -1,0 +1,29 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrGulczu/website.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MrGulczu/website/issues"
+  },
+  "homepage": "https://github.com/MrGulczu/website#readme",
+  "dependencies": {
+    "astro": "^7.3.2"
+  },
+  "allowScripts": {
+    "astro@7.3.2": true
+  }
+}
